@@ -214,6 +214,9 @@ header {
   border: none;
 }
 
+/* when nav-toggle is clicked, .nav-open is called and those 
+     nav component after it is applied. der4 .nav-open is like 
+     a parent-class to all those other nav sub components dat ar styled*/
 .nav-open .nav {
   transform: translateX(0);
 }
